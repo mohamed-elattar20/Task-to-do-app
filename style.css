@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 2000px;
+}
+
+.containerOfAll {
+    background-color: #ccc;
+    width: 90%;
+    height: fit-content;
+    margin: 100px auto;
+    text-align: center;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+h1 {
+    background-color: rgb(46, 92, 94);
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+}
+
+#inputField {
+    width: 40%;
+    height: 35px;
+    margin-top: 40px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 10px;
+    box-shadow: 3px 3px 2px 0px gray;
+}
+
+#addBtn {
+    padding: 8px 20px;
+    background-color: gray;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+
+.cont1 {
+    height: 20%;
+    /* background-color: blue; */
+}
+
+.cont2 {
+    height: 80%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* background-color: rgb(186, 59, 59); */
+    margin-top: 20px;
+}
+
+.header {
+    /* background-color: aqua; */
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#done,
+#delete {
+    background-color: rgb(162, 58, 58);
+    width: 25%;
+    color: white;
+    padding: 5px;
+}
+
+#task {
+    background-color: rgb(162, 58, 58);
+    width: 49.5%;
+    color: white;
+    padding: 5px;
+}
+
+.content {
+    /* background-color: rgb(109, 146, 41); */
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    align-content: space-between;
+}
+
+.checkCont {
+    width: 25%;
+    /* background-color: azure; */
+    /* height: 100%; */
+    margin-bottom: 15px;
+}
+
+input [type="checkbox"] {
+
+    display: block;
+}
+
+#taskShow {
+    width: 49.5%;
+    /* height: fit-content; */
+    /* background-color: darkgreen; */
+    margin-bottom: 15px;
+}
+
+.btnCont {
+    width: 25%;
+    /* background-color: coral; */
+    /* height: 100%; */
+    margin-bottom: 15px;
+}
+
+#btnDelete {
+    /* width: fit-content; */
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
